@@ -1,0 +1,16 @@
+filename = 'too_many_bows-forge-3.4.2.jar'
+name = 'Too Many Bows'
+side = 'both'
+x-extremelauncher-loaders = [ 'neoforge', 'forge' ]
+x-extremelauncher-mc-versions = [ '1.20.1' ]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = '2ebca280b03f1bcde7cfef006c8cacb0e7780937'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6215249
+project-id = 1141533
