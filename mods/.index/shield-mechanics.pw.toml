@@ -1,0 +1,16 @@
+filename = 'shieldmechanics-1.20.1-4.4.jar'
+name = 'Tactical Shield Overhaul[Forge/Neo/Fabric]'
+side = 'server'
+x-extremelauncher-loaders = [ 'neoforge', 'forge' ]
+x-extremelauncher-mc-versions = [ '1.20.1' ]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = 'e1a4f12e0108d9508be6273f0e0f09f84eef7fc9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5734275
+project-id = 476645
