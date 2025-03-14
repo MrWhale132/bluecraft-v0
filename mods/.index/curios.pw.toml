@@ -1,16 +1,16 @@
-filename = 'curios-forge-5.2.0-beta.3+1.20.1.jar'
+filename = 'curios-forge-5.12.1+1.20.1.jar'
 name = 'Curios API'
 side = 'both'
-x-extremelauncher-loaders = [ 'forge' ]
+x-extremelauncher-loaders = [ 'neoforge', 'forge' ]
 x-extremelauncher-mc-versions = [ '1.20', '1.20.1' ]
-x-extremelauncher-release-type = 'beta'
+x-extremelauncher-release-type = 'release'
 
 [download]
-hash = 'd3cc4e6b2014f53df2589688f516a456eea9f3e0d8e60cc45e88f85468ff2fb9049a5c8bfb57659bd7b3394071f7c36757213b9c97e56bfc4ada6e6077e91df7'
+hash = '3d78f4918056d91641fe50b78011b62aa1b6973fd078bd5d986e3d7411f27dce5a57c2a770f8b4dadaf8ff024d1af099b0b14e7fe6db0619349bd5e15e239df3'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vvuO3ImH/versions/SeLn387u/curios-forge-5.2.0-beta.3%2B1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/vvuO3ImH/versions/aFw6K2Jy/curios-forge-5.12.1%2B1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'vvuO3ImH'
-version = 'SeLn387u'
+version = 'aFw6K2Jy'
