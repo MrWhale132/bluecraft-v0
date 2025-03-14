@@ -1,3 +1,6 @@
+bug:
+something causing Let's Do Vinery's cherry leaves to assume the endportals texture when the graphic settings set to fast. One of the client side mod seems to fix it when you actually place the block.
+
 incompability:
 create and supplementaries 3.0.0 and above
 
