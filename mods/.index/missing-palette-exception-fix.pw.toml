@@ -1,0 +1,28 @@
+filename = 'missingpalettefix-1.0.jar'
+name = 'Missing Palette Exception Fix'
+side = 'both'
+x-extremelauncher-loaders = [ 'forge' ]
+x-extremelauncher-mc-versions = [
+    '1.20',
+    '1.20-Snapshot',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2-Snapshot',
+    '1.20.3',
+    '1.20.3-Snapshot',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5-Snapshot',
+    '1.20.6'
+]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = 'ce2124d57a1c85c2149c2a255d8b6739690b1957'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5410750
+project-id = 1032807
