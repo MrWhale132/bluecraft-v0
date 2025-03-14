@@ -1,0 +1,53 @@
+{
+  "shields": {
+    "desc:": "List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: [\"minecraft:shield;65;15\"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  [\"minecraft:shield;65;15\", \"minecraft:shield;65;15\"] ",
+    "shields": [
+      "wom:gesetz;85;17",
+      "slu:knight_shield;75;22",
+      "slu:oni_shield;77;21",
+      "nethers_exoticism:rambutan_shield;53;11",
+      "slu:gilded_great_shield;82;17",
+      "alexsmobs:skelewag_sword;68;13",
+      "slu:siegmeyer_shield;81;18",
+      "cataclysm:black_steel_targe;70;15",
+      "slu:rock_shield;84;14",
+      "slu:charred_silver_shield;85;14",
+      "slu:cross_shield;85;14",
+      "cataclysm:bulwark_of_the_flame;50;10",
+      "slu:divine_shield;80;16",
+      "slu:thorned_shield;77;22",
+      "slu:dragon_guardian_shield;85;13",
+      "slu:mirror_shield;85;14",
+      "alexsmobs:shield_of_the_deep;69;10",
+      "slu:chosen_pantheon_shield;85;12",
+      "slu:iron_round_shield;81;16",
+      "minecraft:shield;65;15",
+      "slu:dragon_slayer_shield;85;15",
+      "slu:charred_shield;76;23",
+      "endermanoverhaul:corrupted_shield;74;10",
+      "slu:crusader_shield;85;12",
+      "slu:tower_knight_shield;76;25",
+      "slu:dragon_skull_shield;82;18",
+      "slu:ashen_shield;69;20",
+      "slu:crucible_shield;75;25",
+      "slu:round_shield;80;19",
+      "slu:rusty_steel_shield;81;17"
+    ]
+  },
+  "playerOnly": {
+    "desc:": "Should the mechanic changes only affect players, default:false",
+    "playerOnly": false
+  },
+  "blockCooldown": {
+    "desc:": "Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)",
+    "blockCooldown": 5
+  },
+  "maxblockdamagereduction": {
+    "desc:": "Maximum percent of damage allowed to be blocked. Default:85",
+    "maxblockdamagereduction": 85
+  },
+  "maxpassivedamagereduction": {
+    "desc:": "Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25",
+    "maxpassivedamagereduction": 25
+  }
+}
