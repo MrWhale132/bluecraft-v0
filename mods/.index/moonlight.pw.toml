@@ -1,0 +1,16 @@
+filename = 'moonlight-1.20-2.13.73-forge.jar'
+name = 'Moonlight Lib'
+side = 'both'
+x-extremelauncher-loaders = [ 'neoforge', 'forge' ]
+x-extremelauncher-mc-versions = [ '1.20.1' ]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = '84d145851ac77dfa67261dac65b0b445340d3dc4e7002bbb40a74c9f93041163bd83adf3548758ef5146b5deecf411658ee20195d703b13f88494360bc1b39f3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/twkfQtEc/versions/HCZ4Mffr/moonlight-1.20-2.13.73-forge.jar'
+
+[update.modrinth]
+mod-id = 'twkfQtEc'
+version = 'HCZ4Mffr'
