@@ -1,0 +1,16 @@
+filename = 'jlme-1.20.1forge-ver1.2.8.jar'
+name = 'Just a lot more enchantments'
+side = 'server'
+x-extremelauncher-loaders = [ 'forge' ]
+x-extremelauncher-mc-versions = [ '1.20.1' ]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = '54cf279476bb2feaa9a3553e8ecf18795647ad90c77e88d96477de41ed6311297d5af21c5ebc7b44132172b9f470ecd6ec4878bb872de981be62c5e4743ff887'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ksu3Wms7/versions/ZGBuY8YQ/jlme-1.20.1forge-ver1.2.8.jar'
+
+[update.modrinth]
+mod-id = 'ksu3Wms7'
+version = 'ZGBuY8YQ'

@@ -1,0 +1,16 @@
+filename = 'disenchanting_table-merged-1.20.1-4.0.0.jar'
+name = 'Dis-Enchanting Table'
+side = 'both'
+x-extremelauncher-loaders = [ 'forge', 'fabric' ]
+x-extremelauncher-mc-versions = [ '1.20.1' ]
+x-extremelauncher-release-type = 'release'
+
+[download]
+hash = '8bf9afe84c3fc044b6536644a0d3ddf694ccd79d848903ed7a6aee73f301e024e7f24c92d23bbd1be9054d0f8c804e508550cac0e945dfdb3bda3bc6a0d260be'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9BgYgXE4/versions/TgX8lc26/disenchanting_table-merged-1.20.1-4.0.0.jar'
+
+[update.modrinth]
+mod-id = '9BgYgXE4'
+version = 'TgX8lc26'
