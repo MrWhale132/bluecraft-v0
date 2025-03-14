@@ -1,2 +1,15 @@
+bug check:
+https://github.com/Luke100000/ImmersiveArmors/issues/109
+
+bug check:
+https://github.com/Luke100000/ImmersiveArmors/issues/60
+
+feature check:
+https://modrinth.com/mod/dungeon-realm
+You can not break/place blocks, you are affectively in simulated adventure mode (you can whitelist some blocks like Grave mod blocks though)
+
+feature:
+Create Big Cannons needs bronze and steel ore from other mods. Steel is present in Epic Paladins, but there are no bronze ore added yet.
+
 config:
 mod: disenchanting table
