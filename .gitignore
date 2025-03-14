@@ -10,7 +10,5 @@ installed_mods
 saves/*
 !saves/world
 
-config/*-client.*
-
 trees
 patchouli_books
