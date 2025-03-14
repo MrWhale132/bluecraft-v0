@@ -1,0 +1,115 @@
+someting casuing gui elemtns like xaero's map or the potion effects' icon to flicker
+
+
+souls like universe causes a bug in mns which makes infinite small damages to a zombie on hit.
+
+
+other mods' weapons can be added to mine and slash server config so that it can recognize them as gear.
+config name: gear_compatibility
+
+
+
+sereneseasons compat with pam's trees mod is broken on server side and wont be fixed, luckly, dynamic trees already implements the same compat logic
+
+somewhere along the way something caused embedium to throw an exception on cloud rendering, disabeling clouds seems to work for now
+
+
+pam's harvestcraft is incomaptible with moderfix's dnyamic resource loading, cause its models needs to be loaded on forge loading
+
+
+
+vexs' skin is broken, it broke at he basic mods so I didn't care to find out which
+
+epif fight and Fresh animations are not compatible, if combined, some models will have missing eyes or they become invisible
+
+epic fight causes an infinite opengl log message but it seems like for now that one of the performance mod fixed it
+
+
+crit modifier mod needs lower config chances I think
+
+!!!!!!!!!!!!!!!!!!!
+tan's giant trees may incompatible with other mods like tectonic, completly crashed the whole instance not just the world, had to delete the instance
+!!!!!!!!!!!!!!!!!!!
+
+
+
+
+dynamic trees: axe chop time and damage taken changed to scale by tree volume, not thickness
+
+
+
+build height can be increased to 640 in tectonic config
+
+
+waterframes is incompatible with stellarity because it says that stellarity overwrites core mc shaders
+
+
+
+alex's caves messes with distant horizons, set this config
+biome_ambient_light_coloring = false
+
+
+change carry on's trigger key from shift
+
+
+atomic stricker's dynamic lights needs this config to be added
+{
+  "itemsList": [
+    "{lightLevel:14s,nameId:\"minecraft:torch\"}",
+    "{lightLevel:15s,nameId:\"minecraft:lantern\"}",
+    "{lightLevel:15s,nameId:\"minecraft:glowstone\"}"
+  ],
+  "notWaterProofList": [
+    "{nameId:\"minecraft:torch\"}"
+  ]
+}
+
+
+
+spice of valheim is depends on cloth config api (same author, shedaniel)
+its config is also kinda broken since you cant change it after world creation.
+
+
+a mutil-client.toml with a content of:
+query_perks = false
+needs to be placed in the config folder to stop mutil lib, part of tetra, to make an http call to a server
+
+several mods conflict with incendium, the games can start and actaully run as well but incendium biomes wont be able to be generated
+and who knows that these mods what other features block
+
+better combat swing through black list regex: tfc:stone/knife|tfc:metal/knife
+
+atomicstyker's dynamic light mod needed, and the lanterns needs to be added manually via configs
+shaders may need to be disabled an reabled to get the lanters emit light on a curios belt slot
+also experienced lot of crashes whith his mods, unsure why.
+
+
+let me despawn mod crashes
+
+
+
+fancy block particles's rain is eating the cpu, some settings related to reain dropplets has to be changed.
+
+
+thin air's default for overworld is 128, can be changed in config
+
+
+
+l2 hostility has a config named "distance factor" which levels the mobs based on distance from origin. can be set to 0
+
+
+the mine and slash rpg mod also has this "distance leveling" feature but it can only be set via a datapack. The format for the datapack can be found in the mod's .jar file: saves\New World (4)\datapacks\test\data\mmorpg\mmorpg_dimension
+
+
+
+weapons of miracles adds distance difficulty, can be turned of in configs
+
+
+
+tool belt needs some qol config changes
+
+
+variable mob heights can be tricky to config
+
+
+seed 2167601832911056963
