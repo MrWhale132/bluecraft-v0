@@ -1,3 +1,10 @@
+incompability:
+create and supplementaries 3.0.0 and above
+
+incompability:
+create and dyenamicsandfriends
+
+
 someting casuing gui elemtns like xaero's map or the potion effects' icon to flicker
 
 
