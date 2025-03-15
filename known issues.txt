@@ -1,3 +1,8 @@
+bug:
+crash:
+version: ?-this
+one of the mods makes ProjectRed Illumanation crash the game when searched for lantern in creative tab
+
 incompability:
 create and supplementaries 3.0.0 and above
 
