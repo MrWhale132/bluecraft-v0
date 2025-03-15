@@ -5,7 +5,7 @@
 	default = 0.2
 	#Critical Hit Chance Increase Per Enchantment Level
 	#Range: 0.0 ~ 1.0
-	increase_per_level = 0.16
+	increase_per_level = 0.3
 	#Maximum Level for Critical Hit Chance Enchantment
 	#Range: 1 ~ 20
 	max_level = 5
@@ -21,7 +21,7 @@
 	initial = 1.5
 	#Critical Hit Effect Increase Per Enchantment Level
 	#Range: 0.0 ~ 50.0
-	increase_per_level = 0.5
+	increase_per_level = 2
 	#Maximum Level for Critical Hit Effect Enchantment
 	#Range: 1 ~ 15
 	max_level = 3
